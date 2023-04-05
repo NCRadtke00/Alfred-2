@@ -6,4 +6,7 @@
     .informationText { 
         @apply p-4 bg-[#412c56] rounded-lg max-w-[400px]
     }
+    .chatRow {
+        @apply flex p-2 rounded-lg text-base items-center justify-center space-x-2 hover:bg-[#412c56]  cursor-pointer text-gray-300 transition-all duration-200 ease-out
+    }
 }
