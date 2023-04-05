@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .informationText { 
+        @apply p-4 bg-[#412c56] rounded-lg max-w-[400px]
+    }
+}
