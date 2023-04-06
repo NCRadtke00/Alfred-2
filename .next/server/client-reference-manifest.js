@@ -155,6 +155,32 @@ self.__RSC_MANIFEST={
         "name": "SessionProvider",
         "async": false
       }
+    },
+    "(app-client)/./components/Sidebar.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Sidebar.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/Sidebar.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Sidebar.tsx",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "name": "default",
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -408,6 +434,30 @@ self.__RSC_MANIFEST={
       "app/layout:app/layout"
     ],
     "name": "SessionProvider",
+    "async": false
+  },
+  "C:\\Users\\raddn\\OneDrive\\Desktop\\Code\\Al-2\\components\\Sidebar.tsx": {
+    "id": "(app-client)/./components/Sidebar.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\raddn\\OneDrive\\Desktop\\Code\\Al-2\\components\\Sidebar.tsx#": {
+    "id": "(app-client)/./components/Sidebar.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\raddn\\OneDrive\\Desktop\\Code\\Al-2\\components\\Sidebar.tsx#default": {
+    "id": "(app-client)/./components/Sidebar.tsx",
+    "chunks": [
+      "app/layout:app/layout"
+    ],
+    "name": "default",
     "async": false
   }
 }
