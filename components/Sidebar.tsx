@@ -1,6 +1,6 @@
 'use client';
 import NewRequest from "./NewRequest"
-import {useSession} from 'next-auth/react'
+import {useSession, signOut} from 'next-auth/react'
 
 function Sidebar() {
     const {data:session} = useSession();
@@ -8,9 +8,9 @@ function Sidebar() {
     return (
     <div className="flex flex-col h-screen p-2">
         <div className="flex-1">
-            <div className=" flex items-center justify-center  p-2">
+            <div className=" flex items-center justify-center p-2">
                 {session && (
-                    <img src={session.user?.image!} alt=""/>
+                    <img onClick={() => signOut()} src={session.user?.image!} alt="" className="h-20 w-20 rounded-3xl mx-auto mb-2 cursor-pointer hover:opacity-70"/>
                 )}       
             </div>
 
