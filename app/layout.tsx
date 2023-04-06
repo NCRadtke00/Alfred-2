@@ -1,5 +1,8 @@
 import Sidebar from "../components/Sidebar"
 import "../styles/global.css"
+import {SessionProvider} from "../components/SessionProvider"
+import { authOptions } from "../pages/api/auth/[...nextauth]"
+import { getServerSession } from "next-auth"
 
 export const metadata = {
   title: 'Alfred',
@@ -14,16 +17,18 @@ export const metadata = {
   }
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  const session = await getServerSession(authOptions);
+
   return (
     <html lang="en">
 
       <body>
-        <SessionProvider>
+        <SessionProvider session={session}>
           <div className="flex">
             <div className="bg-[#1d162a] max-w-xs h-screen overflow-y-auto md:min-w-[16rem]">
               <Sidebar/>
