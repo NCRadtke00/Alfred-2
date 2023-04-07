@@ -181,6 +181,58 @@
         "name": "default",
         "async": false
       }
+    },
+    "(app-client)/./components/Request.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Request.tsx",
+        "chunks": [
+          "app/request/[id]/page:app/request/[id]/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/Request.tsx",
+        "chunks": [
+          "app/request/[id]/page:app/request/[id]/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Request.tsx",
+        "chunks": [
+          "app/request/[id]/page:app/request/[id]/page"
+        ],
+        "name": "default",
+        "async": false
+      }
+    },
+    "(app-client)/./components/RequestInput.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/RequestInput.tsx",
+        "chunks": [
+          "app/request/[id]/page:app/request/[id]/page"
+        ],
+        "name": "*",
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/RequestInput.tsx",
+        "chunks": [
+          "app/request/[id]/page:app/request/[id]/page"
+        ],
+        "name": "",
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/RequestInput.tsx",
+        "chunks": [
+          "app/request/[id]/page:app/request/[id]/page"
+        ],
+        "name": "default",
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -456,6 +508,54 @@
     "id": "(app-client)/./components/Sidebar.tsx",
     "chunks": [
       "app/layout:app/layout"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\raddn\\OneDrive\\Desktop\\Code\\Al-2\\components\\Request.tsx": {
+    "id": "(app-client)/./components/Request.tsx",
+    "chunks": [
+      "app/request/[id]/page:app/request/[id]/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\raddn\\OneDrive\\Desktop\\Code\\Al-2\\components\\Request.tsx#": {
+    "id": "(app-client)/./components/Request.tsx",
+    "chunks": [
+      "app/request/[id]/page:app/request/[id]/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\raddn\\OneDrive\\Desktop\\Code\\Al-2\\components\\Request.tsx#default": {
+    "id": "(app-client)/./components/Request.tsx",
+    "chunks": [
+      "app/request/[id]/page:app/request/[id]/page"
+    ],
+    "name": "default",
+    "async": false
+  },
+  "C:\\Users\\raddn\\OneDrive\\Desktop\\Code\\Al-2\\components\\RequestInput.tsx": {
+    "id": "(app-client)/./components/RequestInput.tsx",
+    "chunks": [
+      "app/request/[id]/page:app/request/[id]/page"
+    ],
+    "name": "*",
+    "async": false
+  },
+  "C:\\Users\\raddn\\OneDrive\\Desktop\\Code\\Al-2\\components\\RequestInput.tsx#": {
+    "id": "(app-client)/./components/RequestInput.tsx",
+    "chunks": [
+      "app/request/[id]/page:app/request/[id]/page"
+    ],
+    "name": "",
+    "async": false
+  },
+  "C:\\Users\\raddn\\OneDrive\\Desktop\\Code\\Al-2\\components\\RequestInput.tsx#default": {
+    "id": "(app-client)/./components/RequestInput.tsx",
+    "chunks": [
+      "app/request/[id]/page:app/request/[id]/page"
     ],
     "name": "default",
     "async": false

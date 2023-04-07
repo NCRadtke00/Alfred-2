@@ -1,14 +1,19 @@
-import React from 'react'
+import Request from "../../../components/Request"
+import RequestInput from "../../../components/RequestInput"
 
-type Props {
+type Props = {
     params: {
         id: string;
     }
 }
 
-function RequestPage() {
+function RequestPage({params: {id} }: Props) {
   return (
-    <div>RequestPage</div>
+    <div>
+        <Request requestId={id} />
+        <RequestInput requestId={id} />
+
+    </div>
   )
 }
 
