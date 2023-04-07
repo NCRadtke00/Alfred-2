@@ -23,9 +23,9 @@ function Request({requestId}:Props) {
 
             </>
         )}
-        {messages?.docs.map((messsage) => (
-            <Message key={messages.id} message={messages.metadata()}/>
-        ))}
+         {messages?.docs.map((message) => (
+        <Message key={message.id} message={message.data()} />
+      ))}
     </div>
   )
 }
