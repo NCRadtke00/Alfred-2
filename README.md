@@ -1,6 +1,7 @@
 # Alfred-2.0
 
 - This is still a work in progress, Scroll down for images
+- github issues with file size of project due to .next folder cache. Look for new repo -> Alfredo. 
 
 # Hosted site
 
@@ -23,6 +24,10 @@
 - Firebase
 
 # Images
+- 8 April 2023
+
+![image](https://user-images.githubusercontent.com/65512131/230745819-02fffe35-9264-44e5-9e5c-f86906f95bb9.png)
+
 
 - 6 April 2023
 
