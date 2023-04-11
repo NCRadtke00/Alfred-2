@@ -1,6 +1,6 @@
 # Alfred-2.0
 
-- This is still a work in progress, Scroll down for images
+- This is a dead project, please look for Alfredo repo.  Scroll down for images
 - github issues with file size of project due to .next folder cache. Look for new repo -> Alfredo. 
 
 # Hosted site
